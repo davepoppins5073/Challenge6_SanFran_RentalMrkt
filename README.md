@@ -60,7 +60,39 @@ def csv_to_dataframe(file_path=str):
  ```
 
 ## CODE 
-The code is well documented and as it's a commented notebook you can follow the code. However there are few things I want to point out
+The code is well documented and as it's a commented notebook you can follow the code. However there are few things I want to point out.
+
+### GRAPHS:
+
+Interactive Plots
+```python
+all_neighborhoods_df.hvplot.points(
+    'Lon', 
+    'Lat', 
+    geo=True, 
+    size = 'Sale_Price_SQR_Foot',
+    color='Gross_Rent',
+    tiles='OSM',
+    frame_width = 700,
+    frame_height = 500,
+    hover_cols = 'Neighborhood',
+    tools=[HoverTool(tooltips=
+        [('Gross Rent','@Gross_Rent{1.11}'),
+         ('Sale Price sq/ft','@Sale_Price_SQR_Foot{1.11}'),
+         ('Neightborhood','@Neighborhood')])],
+    title='San Franscisco Neighborhood Interactive Map: Gross Rent, Sale Price sq/ft '
+).opts(
+    xlabel="Longitude",
+    ylabel="Latitude",
+)
+```
+    
+
+<img width="928" alt="Screen Shot 2022-05-01 at 10 53 59 PM" src="https://user-images.githubusercontent.com/101449950/166178928-f731ff75-d9cf-4eb1-8882-ba2983c259bb.png">
+
+
+
+
 
 
 
