@@ -68,27 +68,27 @@ The code is well documented and as it's a commented notebook you can follow the 
 ## CONCLUSIONS
 ### Answers/Data Story
 
-#### Question 1
+### Question 1
 
 In the six years from 2010 to 2016, the total housing units increased from 372560 to 384242. That's a net change of 11,682 units in 6 years, about an increase of 1947 units per year. In that same time frame, the gross rent increased from $1239/per month to $4390. The average sales_price per square foot changed by about $51/year or $4.25 per month. The San Francisco rental market from 2010 to 2016 presented real estate investors with a legitimate financial opportunity. The price of acquisition (389.34 - 697.64) per sq foot) didn't increase as drastically (1.7 times roughly as the monthly rents did compare to 3.5 times).
 
-#### Question 2
+### Question 2
 
 The lowest gross_rent was $1239 and that was reported in 2010.
 
-#### Question 3
+### Question 3
 
 In 2011 sales price/ sq ft decreased from $369.34 the year before to $341.90. The rent still increaes that year to $1530 up from the prior years $1239
 
-#### Question 4
+### Question 4
 
 From Anza Vista the Avg sales price /sq ft was $88.40, down from $344.49 in 2012.
 
-#### Question 5
+### Question 5
 
 Westwood Park => Gross Rent: 3959 (max value) Union Sq District Sales Price: 903.99 (max value)
 
-#### Question 6
+### Question 6
 
 Looking at all the neighborhoods that comprise, the San Francisco rental market from 2010 to 2016 as a whole, real estate investors had a legitimate financial opportunity. The price of acquisition (389.34 - 697.64) per sq foot) didn't increase as drastically (1.7 times roughly as the monthly rents did compare to 3.5 times).
 
