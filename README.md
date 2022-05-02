@@ -65,8 +65,9 @@ The code is well documented and as it's a commented notebook you can follow the 
 ### for-loop
 For the sake of iterating and improving my code I created and did the following. basically this is close to being a function that will determine if there are any csv in the directory (it will check not jsut the folder where the script is at it will check subdirectories as well and it will take the names of the files there and and using the file path created dataframes beaing their names. It might format the columns to a way I prefer. Either way this is very close to what I want and a few more iterations it will be my very own desktop datascrapper.
 
+<img width="918" alt="Screen Shot 2022-05-01 at 11 17 16 PM" src="https://user-images.githubusercontent.com/101449950/166180634-1fbee744-83af-4a99-885f-c600a50638ba.png">
 
-<img width="1093" alt="Screen Shot 2022-05-01 at 10 56 29 PM" src="https://user-images.githubusercontent.com/101449950/166180307-acfb4fce-2983-4bf9-8152-6d20d3b5950d.png">
+
 
 ### GRAPHS:
 
