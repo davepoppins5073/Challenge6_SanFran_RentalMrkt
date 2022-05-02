@@ -65,8 +65,7 @@ The code is well documented and as it's a commented notebook you can follow the 
 
 
 
-## CONCLUSIONS
-### Answers/Data Story
+## Answers/Data Story
 
 ### Question 1
 
