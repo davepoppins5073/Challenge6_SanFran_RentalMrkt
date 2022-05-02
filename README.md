@@ -64,6 +64,33 @@ The code is well documented and as it's a commented notebook you can follow the 
 
 ### GRAPHS:
 
+#### Bar Graph
+```python
+housing_units_by_year.hvplot.bar(
+    x='Year',
+    y='Housing_Units',
+    ylim = (365000, 385000),
+    hover_color='pink',
+    title="Housing Units in San Fran 2010 - 2016"
+).opts(
+    width=700,
+    yformatter='%.0f',
+    color="yellow",
+    bgcolor="gray",
+    fontsize={
+        'title': 15, 
+        'labels': 12, 
+    'xticks': 10, 
+    'yticks': 10,},
+    padding=0.1
+)
+
+```
+
+<img width="745" alt="Screen Shot 2022-05-01 at 11 04 52 PM" src="https://user-images.githubusercontent.com/101449950/166179578-952744bd-3d81-44c6-9617-a1c1a967afee.png">
+
+
+
 #### Graph with Widet
 ```python
 # Use hvplot to create an interactive line plot of the average price per square foot
