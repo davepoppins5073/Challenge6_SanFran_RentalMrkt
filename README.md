@@ -64,7 +64,26 @@ The code is well documented and as it's a commented notebook you can follow the 
 
 ### GRAPHS:
 
-Interactive Plots
+#### Graph with Widet
+```python
+# Use hvplot to create an interactive line plot of the average price per square foot
+# The plot should have a dropdown selector for the neighborhood
+prices_by_year_by_neighborhood.hvplot.line(groupby='Neighborhood').opts(
+    width=620,
+    bgcolor="lightgrey",
+    yformatter='%.0f',
+    legend_position='right',
+    legend_offset=(0, 50)
+).opts(
+    width=725,
+    yformatter='%.0f',
+    legend_position='right',
+    legend_offset=(0, 50)
+)
+```
+<img width="1093" alt="Screen Shot 2022-05-01 at 10 56 29 PM" src="https://user-images.githubusercontent.com/101449950/166179140-eb92a922-400b-4325-84ac-3a43253626ca.png">
+
+#### Interactive Plots
 ```python
 all_neighborhoods_df.hvplot.points(
     'Lon', 
